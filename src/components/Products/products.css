@@ -1,0 +1,37 @@
+/* .backgroundcol {
+  background-image: linear-gradient(to bottom, #1e8fc7, white);
+} */
+.products {
+  padding: 2rem 8rem;
+}
+@media (max-width: 700px) {
+  .products {
+    padding: 1rem 1rem;
+  }
+}
+@media (max-width: 1100px) {
+  .products {
+    padding: 1rem 5rem;
+  }
+}
+.card {
+  /* border: 5px solid rgb(125, 203, 239); */
+  padding: 10px;
+}
+.card:hover {
+  transform: scale(1.01, 1.01);
+  /* border: 5px solid rgb(72, 151, 188); */
+  box-shadow: 2px 2px 7px rgb(79, 77, 77);
+}
+
+.search {
+  font-family: "Times New Roman", Times, serif;
+  padding: 3px 4px;
+  outline: none;
+  border: 2px solid rgb(168, 222, 244);
+}
+.btnsearch {
+  border: 2px solid rgb(168, 222, 244);
+  /* background-color: rgb(95, 156, 180); */
+  padding: 7px 7px;
+}

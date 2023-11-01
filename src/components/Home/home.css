@@ -1,0 +1,27 @@
+.featuredp{
+  text-align: center;
+  border-bottom: 1px solid black;
+  width: 20vmax;
+  margin: 2vmax auto;
+  font-weight: bold;
+}
+.products {
+  padding: 2rem 8rem;
+}
+@media (max-width: 700px) {
+  .products {
+    padding: 1rem 1rem;
+  }
+}
+@media (max-width: 1100px) {
+  .products {
+    padding: 1rem 5rem;
+  }
+}
+.card {
+  padding: 10px;
+}
+.card:hover {
+  transform: scale(1.01, 1.01);
+  box-shadow: 2px 2px 7px rgb(79, 77, 77);
+}

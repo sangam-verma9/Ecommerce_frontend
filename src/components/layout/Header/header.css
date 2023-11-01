@@ -1,0 +1,15 @@
+/* #grad {
+  background-image: linear-gradient(to right, rgb(171, 220, 248) , rgb(92, 125, 246));
+} */
+/* scrooller */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  /* background: rgb(72, 179, 221); */
+  background: linear-gradient(transparent, #3396e1);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(transparent, #3396e1);
+}

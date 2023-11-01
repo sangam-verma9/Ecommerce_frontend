@@ -1,0 +1,13 @@
+#createProductFormImage {
+  width: 100%;
+  overflow: auto;
+}
+
+#createProductFormImage > img {
+  width: 3vmax;
+  margin: 0 0.5vmax;
+}
+
+
+
+

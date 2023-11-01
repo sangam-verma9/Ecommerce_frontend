@@ -1,0 +1,94 @@
+.carousal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  /* border: 2px solid black; */
+}
+.sampleimginner {
+  /* border: 2px solid black; */
+  width: 55px;
+  border-radius: 5px;
+  margin: 8px 0px;
+  height: auto;
+}
+.carousalinner {
+  /* border: 2px solid black; */
+  /* z-index: -3; */
+  width: 200px;
+  height: auto;
+}
+.details {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  /* border: 2px solid black; */
+}
+@media (max-width: 700px) {
+  .details {
+    justify-content: center;
+  }
+}
+.quantity {
+  margin: 8px 0px;
+}
+.btnqd {
+  font-size: 15px;
+  padding: 0px 7px;
+  /* border-radius: 50%; */
+  border-radius: 2px;
+  background-color: rgb(192, 187, 187);
+}
+.btnqe {
+  font-size: 15px;
+  padding: 0px 5px;
+  /* border-radius: 50%; */
+  border-radius: 2px;
+  background-color: rgb(192, 187, 187);
+}
+.btnq:hover {
+  background-color: rgb(153, 150, 150);
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+.inquantity {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 20px;
+  padding-left: 4px;
+}
+.productdis {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.btnbuy {
+  /* background-color: tomato; */
+  margin: 10px 0px;
+  border-radius: 5px;
+
+  padding: 6px 8px;
+  font-weight: bold;
+}
+.submitDialog{
+  display: flex;
+  flex-direction: column;
+  margin: 2px;
+}
+.submitDialogTextArea{
+  border: 1px solid rgba(199, 198, 196, 0.647);
+  margin: 1vmax 0;
+  outline: none;
+  padding: 1rem;
+}
+
+.notreview {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ebebe4;
+}
