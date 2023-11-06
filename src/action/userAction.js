@@ -31,7 +31,7 @@ import {
 export const login = (email, password) => async (dispatch) => {
   try {
     dispatch({ type: LOGIN_REQUEST });
-    const config = { headers: { "Content-Type": "application/json" } };
+    const config = { headers: { "Content-Type": "application/json" },credentials:"include" };
     const { data } = await axios.post(
       "https://ecommerce-z4d5.onrender.com/api/v1/login",
       { email, password },
@@ -52,7 +52,10 @@ export const login = (email, password) => async (dispatch) => {
 export const signup = (name, email, password) => async (dispatch) => {
   try {
     dispatch({ type: REGISTER_USER_REQUEST });
-    const config = { headers: { "Content-Type": "application/json" } };
+    const config = {
+      headers: { "Content-Type": "application/json" },
+      credentials: "include",
+    };
     const { data } = await axios.post(
       "https://ecommerce-z4d5.onrender.com/api/v1/register",
       { name, email, password },
